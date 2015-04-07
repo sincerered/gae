@@ -1,6 +1,5 @@
 # Copyright 2012 Google Inc. All Rights Reserved.
 
-from lxml import etree
 import datetime
 import logging
 import os
