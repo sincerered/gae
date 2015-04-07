@@ -25,7 +25,7 @@ class MainPage(webapp2.RequestHandler):
     bucket_name = 'option_data'
 
     self.response.headers['Content-Type'] = 'text/plain'
-    self.response.write('Demo GCS Application running from Version: '
+    self.response.write('dsafsadfdsfDemo GCS Application running from Version: '
                         + os.environ['CURRENT_VERSION_ID'] + '\n')
     self.response.write('Using bucket name: ' + bucket_name + '\n\n')
 
