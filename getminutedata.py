@@ -33,6 +33,6 @@ class MainPage(webapp2.RequestHandler):
 
 #kkkk  
 
-app = webapp2.WSGIApplication([('/getminutedata', MainPage)],
+app = webapp2.WSGIApplication([('/getminutedata', MainPage),],
                               debug=True)
 
