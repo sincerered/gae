@@ -28,7 +28,8 @@ class MainPage(webapp2.RequestHandler):
 		else:	
 			for i in x:
 				self.response.write("{}\t".format(i.text))
-"""			
+"""
+    self.response.headers['Content-Type'] = 'text/plain'
     self.response.write("kerker")		
 
 #kkkk  
