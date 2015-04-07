@@ -19,6 +19,9 @@ handlers:
 - url: /getminutedata
   script: getminutedata.app
 
+- url: /kerker
+  script: kerker.py
+
 - url: /.*
   script: main.app
   
