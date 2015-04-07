@@ -16,6 +16,9 @@ handlers:
 - url: /blobstore.*
   script: blobstore.app
 
+- url: /getminutedata
+  script: getminutedata.app
+
 - url: /.*
   script: main.app
   
