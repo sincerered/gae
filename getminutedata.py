@@ -16,8 +16,7 @@ from google.appengine.api import app_identity
 
 class MainPage(webapp2.RequestHandler):
   """Main page for GCS demo application."""
-
-	def get(self):
+  def get(self):
     
 """		try:
 			url = urllib2.urlopen("http://info512.taifex.com.tw/Future/FusaQuote_Norl.aspx?d=3000300").read().decode("utf-8")
@@ -30,7 +29,7 @@ class MainPage(webapp2.RequestHandler):
 			for i in x:
 				self.response.write("{}\t".format(i.text))
 """			
-		self.response.write("kerker")		
+    self.response.write("kerker")		
 
 #kkkk  
 
