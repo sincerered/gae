@@ -6,7 +6,7 @@ import os
 import cloudstorage as gcs
 import webapp2
 import sys
-import urllib2
+#import urllib2
 
 from google.appengine.api import app_identity
 
